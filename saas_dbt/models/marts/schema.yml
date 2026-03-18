@@ -1,0 +1,22 @@
+version: 2
+
+models:
+
+  - name: customer_revenue
+    columns:
+      - name: customer_id
+        tests:
+          - not_null
+
+  - name: mrr
+    columns:
+      - name: month
+        tests:
+          - not_null
+          - unique
+
+  - name: churn_rate
+    columns:
+      - name: month
+        tests:
+          - not_null

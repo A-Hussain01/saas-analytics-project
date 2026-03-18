@@ -1,0 +1,19 @@
+# Python virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# dbt build files
+target/
+dbt_packages/
+
+# OS files
+.DS_Store
+
+# Data files (optional - keep if you want smaller repo)
+data/
+
+# Logs
+*.log
