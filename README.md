@@ -33,7 +33,7 @@ Python → Snowflake → dbt → Tableau
 ---
 
 ## Project Structure
-'''
+```
 Python (Synthetic Data Generation)
         │
         ▼
@@ -53,7 +53,7 @@ Analytics Layer (MRR, Churn, Revenue)
         │
         ▼
 Tableau (Data Visualisation Dashboard)
-'''
+```
 ---
 
 ## Dashboard
